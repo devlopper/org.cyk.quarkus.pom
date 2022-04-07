@@ -12,9 +12,7 @@
 		<version>0.0.1</version>
 	</parent>
 
-	<groupId>org.cyk.quarkus.pom</groupId>
 	<artifactId>quarkus-pom-server</artifactId>
-	<version>0.0.1</version>
 	<packaging>pom</packaging>
 
 	<properties>
@@ -98,13 +96,6 @@
 			<groupId>org.cyk.quarkus.extension.test</groupId>
 			<artifactId>test</artifactId>
 			<version>1.0.0</version>
-			<scope>test</scope>
-		</dependency>
-
-		<dependency>
-			<groupId>org.assertj</groupId>
-			<artifactId>assertj-core</artifactId>
-			<version>${org.assertj.assertj-core.version}</version>
 			<scope>test</scope>
 		</dependency>
 		
@@ -205,6 +196,7 @@
 			<build>
 				<plugins>
 					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-failsafe-plugin</artifactId>
 						<version>${surefire-plugin.version}</version>
 						<executions>
