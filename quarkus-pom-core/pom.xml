@@ -15,8 +15,11 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<org.apache.maven.plugins.maven-compiler-plugin.version>3.8.1</org.apache.maven.plugins.maven-compiler-plugin.version>
+		<maven.compiler.release>11</maven.compiler.release>
+		<!--
 		<maven.compiler.source>11</maven.compiler.source>
-		<maven.compiler.target>11</maven.compiler.target>		
+		<maven.compiler.target>11</maven.compiler.target>
+		-->
 		<compiler-plugin.version>3.8.1</compiler-plugin.version>
 		<surefire-plugin.version>3.0.0-M5</surefire-plugin.version>		
 		<failsafe-plugin.version>${surefire-plugin.version}</failsafe-plugin.version>
@@ -93,6 +96,7 @@
 	<modules>
 		<module>../quarkus-pom-extension</module>
 		<module>../quarkus-pom-server</module>
+		<module>../quarkus-pom-client</module>
 	</modules>
 	
 </project>
