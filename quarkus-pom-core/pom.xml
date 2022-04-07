@@ -95,8 +95,7 @@
 	
 	<modules>
 		<module>../quarkus-pom-extension</module>
-		<module>../quarkus-pom-server</module>
-		<module>../quarkus-pom-client</module>
+		<module>../quarkus-pom-platform</module>
 	</modules>
 	
 </project>
