@@ -17,7 +17,6 @@
 	
 	<properties>
 		<org.apache.myfaces.core.extensions.quarkus.myfaces-quarkus.version>2.3-next-M6</org.apache.myfaces.core.extensions.quarkus.myfaces-quarkus.version>
-		<org.primefaces.primefaces.version>11.0.0</org.primefaces.primefaces.version>
 	</properties>
 
 	<dependencies>
@@ -26,12 +25,6 @@
 			<artifactId>myfaces-quarkus</artifactId>
 			<version>${org.apache.myfaces.core.extensions.quarkus.myfaces-quarkus.version}</version>
 		</dependency>
-
-		<dependency>
-            <groupId>org.primefaces</groupId>
-            <artifactId>primefaces</artifactId>
-            <version>${org.primefaces.primefaces.version}</version>
-        </dependency>
 	</dependencies>
 	
 	<build>
