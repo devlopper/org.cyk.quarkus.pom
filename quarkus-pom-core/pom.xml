@@ -39,6 +39,8 @@
 		<org.mock-server.mockserver-client-java.version>${mock-server.version}</org.mock-server.mockserver-client-java.version>
 		<org.mock-server.mockserver-maven-plugin.version>${mock-server.version}</org.mock-server.mockserver-maven-plugin.version>
 		<org.mock-server.mockserver-maven-plugin.configuration.port>10000</org.mock-server.mockserver-maven-plugin.configuration.port>
+		
+		<com.github.tomakehurst.wiremock-jre8.version>2.33.1</com.github.tomakehurst.wiremock-jre8.version>
 	</properties>
 	
 	<dependencyManagement>
